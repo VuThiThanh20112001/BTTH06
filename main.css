@@ -1,0 +1,22 @@
+.row1,.row2,.row3,.row4{
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid red;
+}
+.row4 input:first-of-type{
+    width: 30px;
+}
+.row1{
+    display: flex;
+}
+.row-left{
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid red;
+}
+.row-right{
+    flex-grow: 1;
+    line-height: 30px;
+    border: 1px solid red;
+}
